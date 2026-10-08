@@ -27,7 +27,7 @@ h2{font-size:30px;margin:0 0 12px}.total{font:700 52px Georgia,serif;text-align:
 <section class="page" id="past"><div class="card"><h2>Previous Garage Sales</h2><div class="small">Past events are saved, not erased. Tap View to see totals and history.</div><div id="pastEvents"></div></div><div id="pastDetail" class="card hide"><h2 id="pastTitle"></h2><div id="pastSummary"></div><div id="pastHistory"></div><button class="btn" id="closePast">Close</button></div></section>
 </div></div>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script><script>
-const URL='https://gweyqqjamikhgptfajel.supabase.co';
+const URL = 'https://gweyqqjamikhgptfajel.supabase.co';
 const PUBLISHABLE_KEY='sb_publishable_4S2Vf16eSuKHicoYXk-0Mg_ZuExL1xd';
 const db=window.supabase?.createClient(URL,PUBLISHABLE_KEY);
 const $=q=>document.querySelector(q), $$=q=>[...document.querySelectorAll(q)];
